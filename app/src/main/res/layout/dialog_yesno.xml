@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutYesNo"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical|center_horizontal"
+    android:background="@drawable/rountedlayout"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <!-- Column 1 -->
+
+
+            <!-- Column 2 -->
+
+
+            <!-- Column 3 -->
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:src="@drawable/error" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="sans-serif-light"
+                android:text="Pergunta"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/AzulImagem"
+                android:textSize="22sp" />
+        </TableRow>
+    </TableLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:src="@drawable/separador" />
+
+    <TextView
+        android:id="@+id/lbldescricaomsg"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="Roboto-Light"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:stretchColumns="1" >
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btsim"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/nada"
+                android:fontFamily="sans-serif-condensed"
+                android:text="SIM"
+                android:textColor="@color/AzulImagem"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+            <Button
+                android:id="@+id/btnao"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="0dp"
+                android:layout_height="45dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.5"
+                android:background="@drawable/nada"
+                android:fontFamily="sans-serif-condensed"
+                android:text="NÂO"
+                android:textColor="@color/AzulImagem"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:typeface="normal" />
+
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
